@@ -1,4 +1,4 @@
-var GameSparksAdminSocket = new require('./GameSparksAdminSocket').socket;
+var GameSparksAdminSocket = require('./GameSparksAdminSocket').socket;
 var poolModule = require('./generic-pool');
 
 var pool = null;
